@@ -20,7 +20,8 @@ bool isFibonacci(int n) {
 }
 
 int main(){
-   cout << isFibonacci(1597) << endl;
+   if(isFibonacci(1598)) cout << "Esse numero pertence à sequência." << endl;
+   else cout << "Esse número não pertence à sequência." << endl;
 
     return 0;
 }
